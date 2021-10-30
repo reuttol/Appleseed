@@ -1,0 +1,15 @@
+#q1{
+    border: solid 1px red;
+    font-size: 20px;
+    border-radius: 20px;
+}
+#q2{
+    font-weight: bold;
+    font-style: italic;
+}
+#q3{
+    color: white;
+    background-color: black;
+    box-shadow: 5px 5px 10px 2px coral;
+    font-family: monospace;
+}

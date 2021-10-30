@@ -1,0 +1,32 @@
+body{
+    height: 4000px;
+} 
+.navbar{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    overflow: auto;
+    background: #536878;
+    border-radius: 5px;
+    position: sticky;
+    top: 0;
+}
+.navbar li{
+    float: left;
+    padding: 15px 20px;
+}
+p{
+    padding: 0 15px 10px 15px;
+}
+h3, h1{
+    padding: 0 15px;
+}
+
+.navbar li a{
+    text-decoration: none;
+    color: white;
+}
+
+.navbar li:hover{
+    background-color: #2c3f4e;
+}

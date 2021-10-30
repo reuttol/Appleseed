@@ -1,0 +1,16 @@
+#outer {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    background: darkcyan;
+    margin: 50px;
+    font-size: 15px;
+}
+
+#inner {
+    width: 50px;
+    height: 50px;
+    background: lightgreen;
+    position: relative;
+    top: 10px;
+}

@@ -1,0 +1,46 @@
+body {
+    background-image: url("background.png");
+    font-family: 'Roboto', sans-serif;
+}
+
+img {
+    border-radius: 20px;
+    float: left;
+}
+
+h1 {
+    font-weight: bold;
+    color: #9400D3;
+}
+
+.clr {
+    clear: both;
+}
+
+#info {
+    float: right;
+    width: 60%;
+}
+
+p {
+    color: indigo;
+}
+
+#container {
+    margin: auto;
+    max-width: 60%;
+}
+
+.links{
+    overflow: auto;
+    list-style: none;
+}
+.links li{
+    padding: 10px;
+    float: left;
+}
+.links li a{
+    text-decoration: none;
+    background-color: lightgray;
+    color:#bd2884;
+}

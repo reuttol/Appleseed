@@ -1,0 +1,32 @@
+div{
+    border: solid 3px black;
+    background-color: white;
+}
+.div-1{
+    height: 150px;
+    width: 150px;
+    z-index: 0;
+    position: absolute;
+}
+.div-2{
+    height: 150px;
+    width: 150px;
+    z-index: 1;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+}
+.div-3{
+    height: 150px;
+    width: 400px;
+    z-index: 2;
+    position: absolute;
+    top: 220px;        
+}
+.div-4{
+    height: 400px;
+    width: 90px;
+    z-index: 3;
+    position: absolute;
+    left: 300px;
+}
