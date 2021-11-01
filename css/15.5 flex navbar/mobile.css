@@ -1,0 +1,11 @@
+.navbar, .navbar__btns{
+    flex-direction: column;
+    align-items: center;
+}
+.navbar__btns--li, .navbar__contact{
+    padding: 1rem 0;
+}
+
+.navbar:first-child img{
+    width: 40vw;
+}

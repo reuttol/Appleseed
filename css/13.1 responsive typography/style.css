@@ -1,0 +1,30 @@
+#approach-1{
+    font-size: 1.25rem;
+}
+/*@media (min-width: 500px) {
+#approach-1{
+    font-size: 4vw;
+  }
+}
+
+@media (min-width: 1500px) {
+#approach-1 {
+    font-size: 3.75rem;
+  }
+} */
+
+
+#approach-2{
+    font-size: 1.25rem;
+}
+/*@media (min-width: 500px) {
+    #approach-2{
+        font-size: calc(1.25rem + 2vw);
+    }
+}
+
+@media (min-width: 1750px) {
+    #approach-2{
+        font-size: 3.4375rem;
+    }
+} */
