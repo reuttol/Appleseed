@@ -1,0 +1,32 @@
+a{
+    text-decoration: none;
+    color: coral;
+    font-weight: bold;
+    position: relative;
+}
+
+a:hover::before{
+    content: attr(data-tooltip);
+    font-weight: normal;    
+    width:max-content;
+    background-color: yellow;
+    color: black;
+    padding: 0.5rem 1rem;
+    border-radius: 1rem;
+    font-size: 0.8rem;
+    position: absolute;
+    top:-2.5rem;   
+    left: -1rem;
+}
+
+a:hover::after{
+    content: '';
+    width: 0;
+    height: 0;
+    border-left: 0.5rem solid transparent;
+    border-right: 0.5rem solid transparent;
+    border-top: 1rem solid yellow;
+    position: absolute;
+    top: -0.6rem;  
+    right: 3.5rem;
+}

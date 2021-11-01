@@ -1,0 +1,17 @@
+.box{
+    height: 400px;
+    width: 400px;
+    background-color: purple;
+    position: relative;
+}
+.box:after{
+    content: '';
+    height: 100%;
+    width: 50%;
+    background-color: red;
+    position: absolute;
+    right: 0;
+}
+.box:hover{
+    background-color: blue;
+}

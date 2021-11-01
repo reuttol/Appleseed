@@ -1,0 +1,14 @@
+.box{
+    height: 400px;
+    width: 400px;
+    background-color: violet;
+    position: relative;
+}
+.box:after{
+    content: '';
+    height: 100%;
+    width: 50%;
+    background-color: purple;
+    position: absolute;
+    right: 0;
+}

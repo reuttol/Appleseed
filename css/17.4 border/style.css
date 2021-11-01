@@ -1,0 +1,54 @@
+body{
+    background-color: #3c3c3c;
+    margin: 100px;
+}
+button{
+    width: 180px;
+    height: 60px;
+    background-color: transparent;
+    font-size: 20px;
+    font-weight: 400;
+    color: white;
+    /* border: solid 3px white; */
+    border: none;
+    position: relative;
+    
+}
+button:hover{
+    background-color: lightgray;
+    color: black;
+    cursor: pointer;
+}
+button:before, button:after, span:before, span:after{
+    content: '';
+    height: 25%;
+    width: 15%;
+    position: absolute;
+    background-color: transparent;
+    /* border: solid 1px white; */
+}
+
+button:before{ 
+    top: -3px;
+    left: -3px;
+    border-top: solid white 3px;
+    border-left: solid white 3px;
+}
+button:after{
+    top: -3px;
+    right: -3px;
+    border-top: solid white 3px;
+    border-right: solid white 3px;
+}
+span:before{
+    bottom: -3px;
+    left: -3px;
+    border-bottom: solid white 3px;
+    border-left: solid white 3px;
+}
+span:after{
+    bottom: -3px;
+    right: -3px;
+    border-bottom: solid white 3px;
+    border-right: solid white 3px;
+}
