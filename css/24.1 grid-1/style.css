@@ -1,0 +1,28 @@
+.grid{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 1rem;
+}
+.item{
+    /* padding: 0.5rem 1.5rem; */
+    border-radius: 1rem;
+}
+#item-1{
+    background-color: lightcoral;
+    grid-column: 1 / span 2;
+}
+#item-2{
+    background-color: slateblue;
+    grid-column: 3 / span 2;
+}
+#item-3{
+    background-color: paleturquoise;
+}
+#item-4{
+    background-color: palevioletred;
+    grid-column: 2 / span 3;
+}
+#item-5{
+    background-color: pink;
+    grid-column: 1 / span 4; 
+}
