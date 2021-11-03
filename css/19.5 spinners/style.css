@@ -1,0 +1,96 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    
+}
+.container{
+    min-height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+   
+    /* margin: 50px; */
+}
+.spin-1{
+    width: 100px;
+    height: 100px;
+    border: 3px solid gray;
+    border-top: 3px solid turquoise;
+    border-radius: 50%;
+    position: relative;
+    animation: rotate 1s linear infinite;
+}
+
+.spin-2{
+    width: 100px;
+    height: 100px;
+    border-right: 3px solid transparent;
+    border-top: 3px solid turquoise;
+    border-radius: 50%;
+    position: relative;
+    animation: rotate 1s linear infinite;
+}
+
+@keyframes rotate{
+    to{
+        transform: rotate(360deg);
+    }
+}
+
+.spin-3, .spin-4{
+    width: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.dot{
+    height: 15px;
+    width: 15px;
+    background-color: gray;
+    border-radius: 50%;
+}
+.dot-1{
+    animation: change-color 1.5s linear infinite;
+}
+.dot-2{
+    animation: change-color 1.5s linear infinite;
+    animation-delay: 0.5s;
+}
+.dot-3{
+    animation: change-color 1.5s linear infinite;
+    animation-delay: 1s;
+}
+
+@keyframes change-color{
+    to{
+        background-color: turquoise;
+    }
+}
+.dot-1-1{
+    animation: up 1s linear infinite;
+}
+.dot-2-1{
+    animation: up 1s linear infinite;
+    animation-delay: 0.25s;
+}
+.dot-3-1{
+    animation: up 1s linear infinite;
+    animation-delay: 0.5s;
+}
+
+@keyframes up{
+    0%{
+        transform: initial;
+    }
+    30%{
+        transform: translateY(-15px);
+    }
+    60%{
+        transform: initial;
+    }
+}
