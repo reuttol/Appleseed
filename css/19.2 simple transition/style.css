@@ -1,0 +1,22 @@
+
+.box{
+    background: pink;
+    height: 200px;
+    width: 200px;
+    position: relative;
+}
+
+.box::before{
+    content: '';
+    position: absolute;
+    transform: translateX(100%);
+    background: purple;
+    width: 200px;
+    height: 200px;
+    transition: all 1.5s;
+}
+
+.box:hover:before{
+    background: red;
+    transform: translateX(0);
+}

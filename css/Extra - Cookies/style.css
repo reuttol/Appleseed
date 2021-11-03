@@ -1,0 +1,85 @@
+.page{
+    height: 100vh;
+    background: gray;
+    border: 1px solid whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.4;
+}
+.terms{
+    color: white;
+}
+
+.flex-container{
+    display: flex;
+    background: red;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    padding: 0 20px;
+}
+.flex-container div{
+    background-color: rgba(153, 0, 0, 0.8);
+    /* background-color: rgba(255, 0, 0, 0.7); */
+    border: 1px solid rgba(153, 0, 0, 0.8);
+    /* border: 1px solid rgba(255, 0, 0, 0.7); */
+    color: white;
+    border-radius: 7px;
+    padding: 15px;
+}
+
+.page2{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.flex-container2{
+    flex-direction: column;
+    display: flex;
+    max-width: 360px;
+    max-height: 150px;
+    /* max-height: 30%; */
+    /* height: 100%; */
+    background-color: #333;
+    border-radius: 8px;
+    justify-content: center;
+    text-align: left;
+    padding: 15px 20px;
+    margin: 10px 50px 10px 0;
+    color: white;
+    font-size: 20px;
+    
+}
+.ok{
+    align-self: center;
+    border-radius: 8px;
+    border: 1px solid white;
+    padding: 0 47%;
+    margin-top: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+.page3{
+    display: flex;
+    align-items: flex-end;
+}
+.flex-container3{
+    display: flex;
+    max-width: 400px;
+    max-height: 150px;
+    flex-direction: column;
+    background-color: black;
+    color: white;
+    margin: 10px;
+    padding: 20px 30px;
+    font-size: 20px;
+}
+.use-of-cookies{
+    color: lightblue;
+}
+.okay{
+    text-decoration: none;
+    color: orange;
+    align-self: end;
+    padding-top: 15px;
+}
