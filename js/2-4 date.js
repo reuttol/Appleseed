@@ -8,7 +8,7 @@ function getDayOfMonth(date){
 }
 
 function getMonth(date){
-	return date.getMonth()+1;
+	return date.toLocaleString('en-GB', { month: 'long' });
 }
 
 function getYear(date){
