@@ -17,3 +17,17 @@ function countLetters(arr){
 }
 
 console.log(countLetters(array));
+
+//* Mordi's solution
+// const array = ['Hello', 'Good Day', 'Your Welcome', 'hotdog', 'hamburgers'];
+// const func = (arr) => {
+//   const obj = { count: { letter: '', frequency: 0 } };
+//   [...arr.join('').split(' ').join('').toLowerCase()].forEach((char) => {
+//     obj[char] ? obj[char]++ : (obj[char] = 1);
+//     obj[char] > obj.count.frequency &&
+//       obj.count.frequency++ &&
+//       (obj.count.letter = char);
+//   });
+//   return obj;
+// };
+// console.log(func(array));
