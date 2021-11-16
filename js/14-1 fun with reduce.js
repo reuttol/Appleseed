@@ -1,10 +1,10 @@
-const arr = [1, 2, 3, 4, 56, 98, 124, 0, -5];
+const arr = [1, 2, 3, 4, 56, 98, 124, 0, 5];
 
 //* 1. max
 const max = arr.reduce((acc, cur) => acc > cur ? acc : cur);
 
 //* 2. sum of even numbers
-const evenSum = arr.reduce((acc, cur) => cur%2 ? acc + cur : acc);
+const evenSum = arr.reduce((acc, cur) => cur%2 ? acc : acc + cur, 0);
 
 //* 3. average 
 const avg = arr.reduce((acc, cur) => acc + cur/arr.length, 0);
