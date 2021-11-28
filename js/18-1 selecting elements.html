@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Header</h1>
+    <p>Paragraph</p>
+    <a href="#">link</a>
+    <img src="" alt="" />
+    <div class="x">Div with a class</div>
+    <div id="y">Div with an id</div>
+    <input type="text" />
+    <input type="text" />
+    <input type="text" />
+</body>
+<script>
+//* 1.
+const myH1 = document.getElementsByTagName('h1');
+const myP = document.getElementsByTagName('p');
+const myA = document.getElementsByTagName('a');
+const myImg = document.getElementsByTagName('img');
+const myDivX = document.getElementsByClassName('x') ;
+const myDivY = document.getElementById('y');
+const myInputs = document.getElementsByTagName('input');
+const myInput1 = myInputs[0];
+const myInput2 = myInputs[1];
+const myInput3 = myInputs[2];
+
+console.log("Section 1:");
+console.dir(myH1);
+console.dir(myP);
+console.dir(myA);
+console.dir(myImg);
+console.dir(myDivX);
+console.dir(myDivY);
+console.dir(myInput1);
+console.dir(myInput2);
+console.dir(myInput3);
+
+
+//* 2. 
+let allElems = document.querySelectorAll('body');
+allElems = allElems[0].children;
+const myH12 = allElems[0];
+const myP2 = allElems[1];
+const myA2 = allElems[2];
+const myImg2 = allElems[3];
+const myDivX2 = allElems[4];
+const myDivY2 = allElems[5];
+const myInput12 = allElems[6];
+const myInput22 = allElems[7];
+const myInput32 = allElems[8];
+
+console.log("Section 2:");
+console.dir(myH12);
+console.dir(myP2);
+console.dir(myA2);
+console.dir(myImg2);
+console.dir(myDivX2);
+console.dir(myDivY2);
+console.dir(myInput12);
+console.dir(myInput22);
+console.dir(myInput32);
+
+//* 3.
+const allInputs = document.querySelectorAll('input');
+
+console.log("Section 3:");
+allInputs.forEach((el)=>{
+    console.dir(el);
+});
+
+const x = [...myInputs];
+x.forEach((el)=>{
+    console.dir(el)
+});
+
+</script>
+
+</html>

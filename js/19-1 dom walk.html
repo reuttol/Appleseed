@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="./script.js" defer></script>
+</head>
+
+<body>
+    <ul>
+        <li>title 1</li>
+        <li class="start-here">title 2</li>
+        <li>
+            <ul>
+                <li>sub title 1</li>
+                <li>sub title 2</li>
+                <li>sub title 3</li>
+            </ul>
+        </li>
+        <li>title 3</li>
+    </ul>
+    <div>
+        <p>Hello World!</p>
+    </div>
+
+
+    <script>
+        const start = document.querySelectorAll('.start-here');
+
+        const nestedList = document.querySelectorAll('ul ul li');
+        nestedList[1].innerText = 'main title';
+        const list = document.querySelector('ul ul');
+        const newLi = document.createElement('li');
+        newLi.innerText = 'sub title 4';
+        list.append(newLi);
+
+        const firstList = document.querySelectorAll('ul li');
+        const lastLi = firstList[firstList.length-1];
+        lastLi.remove();
+
+        document.title = "Master Of The Dom";
+
+        const par = document.querySelector('p');
+        par.innerText = 'Lorem*20';
+
+    </script>
+</body>
+
+</html>
