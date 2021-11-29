@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3>Why are you interested in this position?</h3>
+    <textarea name="" id="" cols="30" rows="10"></textarea>
+    <button>Click here!</button>
+
+    <script>
+        const btn = document.querySelector('button');
+        btn.addEventListener('click', submitAnswer);
+        function submitAnswer(){
+            const answer = document.querySelector('textarea');
+            const h3 = document.querySelector('h3');
+            if(answer.textLength < 100){
+                if (!h3.innerText.includes("Please Elaborate your answer!"))
+                h3.innerText = h3.innerText + "\nPlease Elaborate your answer!";
+            }
+            else{
+                h3.innerText = "Why are you interested in this position?";
+                answer.value = '';          
+            }
+        }
+    </script>
+</body>
+</html>

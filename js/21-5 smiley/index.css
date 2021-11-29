@@ -1,0 +1,23 @@
+
+.container{
+    margin: 50px auto;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+    justify-content: center;
+}
+.smiley-container{
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: fit-content;
+    width: 90%;
+    background-color: lightgray;
+}
+.smiley{
+    height: 50px;
+    width: 50px;
+}

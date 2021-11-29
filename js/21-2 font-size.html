@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Here is Some Dummy Text </h2>
+    <button id="minus">-</button>
+    <button id="plus">+</button>
+
+    <script>
+        const h = document.querySelector('h2');
+        const minus = document.querySelector('#minus');
+        const plus = document.querySelector('#plus');
+
+        minus.addEventListener('click', function(){
+            let fontSize = window.getComputedStyle(h)['font-size'];
+            fontSize = parseInt(fontSize);
+            if(fontSize > 6)
+                h.style.fontSize = `${--fontSize}px`;
+        });
+        plus.addEventListener('click', function(){
+            let fontSize = window.getComputedStyle(h)['font-size'];
+            fontSize = parseInt(fontSize);
+            if(fontSize < 100)
+                h.style.fontSize = `${++fontSize}px`;
+        });
+
+    </script>
+</body>
+</html>
