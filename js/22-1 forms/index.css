@@ -1,0 +1,20 @@
+.form-container{
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    gap: 10px;
+}
+.confirm-container{
+    display: flex;
+    flex-direction: column;
+    visibility: hidden;
+    width: 50%;
+    margin: 0 auto;
+    gap: 10px;
+}
+.btns{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
