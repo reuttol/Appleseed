@@ -1,0 +1,15 @@
+table,th, td{
+    border: 1px solid blue;
+    border-collapse: collapse;
+}
+th,td{
+    width: 50px;
+    font-size: 25px;
+
+}
+th{
+    color:green;
+}
+td:hover{
+    background-color: orange;
+}
