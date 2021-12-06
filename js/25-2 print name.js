@@ -5,6 +5,7 @@ myObj = {
     },
     printName2: function(){
         setTimeout(this.printName.bind(this), 1000);
+        setTimeout(()=> console.log(this.name), 1000);
     }
 }
 
