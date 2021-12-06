@@ -19,7 +19,8 @@ const myObj = {
 // myObj.greet();
 
 //* 3. 
-
+// myFuncDec is declared using a function declaration so it will get the function's scope
+// which is the global scope so this will be equal to window.
 const myFuncDec = function () {
     console.log(this);
 };
