@@ -1,0 +1,18 @@
+.table{
+    border-collapse: collapse;
+    border: 1px solid #000;
+
+}
+.table tr:nth-child(2n){
+    background-color: skyblue;
+}
+.table tr:nth-child(2n+1){
+    background-color: lightblue;
+}
+.table th{
+    background-color: slateblue;
+    text-align: left;
+}
+th,tr,td{
+    padding: 10px;
+}

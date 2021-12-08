@@ -1,0 +1,50 @@
+html{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: 20px;
+}
+
+.container{
+    margin: 10px auto;
+    font-weight: 600;
+    display: flex;
+    width: 60%;
+    height: 40px;
+    gap: 1rem;
+}
+.movie{
+    flex: 4;
+    margin: 8px;
+}
+.search{
+    margin: 8px 3px;
+    flex: auto;
+} 
+.container div{
+    display: inline-block;
+    margin: 8px;
+}
+
+.result-container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.ratings{
+    display: flex;
+    gap: 10px;
+}
+.rating-container{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: center;
+}
+
