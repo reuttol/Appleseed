@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button>Get Joke</button>
+    <h3 class="joke-title"></h3>
+    <p class="joke-body"></p>
+    <script>
+        
+        document.querySelector("button").addEventListener('click', getJoke);
+        async function getJoke(){
+            try{
+                const data = await fetch("https://api.jokes.one/jod");
+                const jokeData = await data.json();
+
+                const title = document.querySelector(".joke-title");
+                title.innerText = jokeData.contents.jokes[0].joke.title;
+                const body = document.querySelector(".joke-body");
+                body.innerText = jokeData.contents.jokes[0].joke.text;
+
+            }catch(e){
+                console.log("Error ocurred:", e);
+            }
+        }       
+        
+    </script>
+</body>
+</html>
