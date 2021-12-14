@@ -1,0 +1,25 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  margin: 1rem;
+}
+.cards{
+  display: flex;
+  gap: 1rem;
+}
+.card-container{
+  display: flex;
+  flex-direction: column;
+  height: 300px;
+  width: 150px;
+}
+.img{
+    height: 40%;
+}
+.links{
+  display: flex;
+  gap: 1rem;
+}
