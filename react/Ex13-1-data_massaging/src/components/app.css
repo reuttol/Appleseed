@@ -1,0 +1,29 @@
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background: linear-gradient(0deg, rgba(247,83,121,1) 0%, rgba(231,159,209,1) 50%, rgba(247,203,187,1) 100%);
+}
+.app{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 1rem;
+    background-color: #ddd;
+}
+.names-container{
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+.objects-container{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}

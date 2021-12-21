@@ -1,0 +1,15 @@
+.products-container, .header-container{
+    display: flex;
+    gap: 1rem;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+
+}
+
+img{
+    height: 100px;
+    width: 150px;
+}

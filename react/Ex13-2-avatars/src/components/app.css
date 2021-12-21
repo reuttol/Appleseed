@@ -1,0 +1,19 @@
+.avatar-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+.avatar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #000;
+}
+.avatar img{
+    height: 150px;
+    width: 150px;
+}
+input{
+    margin: 1rem auto;
+}
