@@ -28,3 +28,6 @@
     display: flex;
     gap: 1rem;
 }
+.btns-container input{
+    flex: 1;
+}
