@@ -1,0 +1,19 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    border: 1px solid #000;
+    width: 95vmin;
+    padding: 0.5rem;
+    margin: 1rem;
+}
+button{
+    border: none;
+    background-color: transparent;
+    color: blue;
+}
+button:hover{
+    text-decoration: underline;
+}
