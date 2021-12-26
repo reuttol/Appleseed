@@ -1,0 +1,24 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container {
+  border: 1px solid #000;
+  width: 95vmin;
+  display: flex;
+  padding: 0.5rem;
+  margin: 1rem;
+  gap: 8px;
+  justify-content: center;
+  align-items: baseline;
+}
+button {
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
+  color: blue;
+}
+.completed {
+  text-decoration: line-through;
+}
