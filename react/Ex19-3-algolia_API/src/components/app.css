@@ -1,0 +1,14 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.app{
+padding: 10px;
+}
+ul{
+  padding: 15px;
+}
+ul li{
+  padding: 3px;
+}
