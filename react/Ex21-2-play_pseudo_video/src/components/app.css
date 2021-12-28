@@ -1,0 +1,30 @@
+html{
+  font-family: Arial, Helvetica, sans-serif;
+}
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  height: 100vh;
+  background-color: #ddd;
+}
+.app{
+  width: 90vh;
+  margin: 20px auto;
+  background-color: violet;
+}
+.video{
+  height: 60vh;
+}
+.btns{
+  background-color: purple;
+}
+button{
+  padding: 5px 10px;
+}
+video{
+  height: 100%;
+  width: 100%;
+}
