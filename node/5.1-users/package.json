@@ -1,16 +1,16 @@
 {
-  "name": "import-vs-require",
+  "name": "5.1-users",
   "version": "1.0.0",
   "description": "",
-  "main": "importVsRequire.js",
+  "main": "app.js",
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "chalk": "^5.0.0",
     "yargs": "^17.3.1"
   }
 }
