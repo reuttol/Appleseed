@@ -21,10 +21,10 @@
 // node --experimental-modules my-app.mjs
 
 import * as fs from "fs";
+import add, { changeName, hello } from "./importFromMe.mjs";
 
 fs.writeFileSync("text.txt", "Test");
 
-import add, { changeName, hello } from "./importFromMe.mjs";
 const sum = add(2, 4);
 const newName = changeName("Itzik");
 console.log(sum);
